@@ -1,5 +1,15 @@
 # AgriAI
 
+## Source and training submission
+
+- [Fresh checkout setup](GITHUB_SETUP.md)
+- [Model training source and reproduction notes](ml_training/README.md)
+- [Dataset inventory and source-link status](DATASETS.md)
+
+The older feature-status notes below describe an earlier development stage;
+they are not a current verification of every feature. Training data is not
+bundled with this repository.
+
 AgriAI is a Flutter mobile application for AI-assisted smart farming. The
 current Android build contains all 25 designed screens plus Firebase
 Authentication and Cloud Firestore integration.

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "manifest_rows": 123811,
+  "disk_image_files": 123811,
+  "crop_count": 25,
+  "class_count": 122,
+  "split_counts": {
+    "test": 12383,
+    "train": 99045,
+    "validation": 12383
+  },
+  "classes_by_split": {
+    "train": 122,
+    "validation": 122,
+    "test": 122
+  },
+  "duplicate_manifest_paths": 0,
+  "duplicate_normalized_pixel_hashes": 0,
+  "missing_manifest_files": 0,
+  "unlisted_disk_files": 0,
+  "listed_but_missing": 0,
+  "sampled_images_verified": 1500,
+  "sample_image_errors": []
+}

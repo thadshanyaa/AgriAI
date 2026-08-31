@@ -23,5 +23,8 @@ Do not commit service-account private keys, passwords, provider API secrets,
 signing keys or `.env` files. Private repository visibility is not a substitute
 for protecting credentials or enforcing Firebase security rules.
 
-Training notebooks/scripts are stored separately from this application folder
-and have not been added to this repository as part of the initial Git setup.
+Training notebooks/scripts, dataset preparation code and saved cleaning /
+conversion reports are included in `ml_training/`. Read `ml_training/README.md`
+for dependencies and reproduction limitations, and `DATASETS.md` for dataset
+provenance and download requirements. Raw datasets and training checkpoints
+are deliberately excluded. No paid storage or Git LFS is configured.

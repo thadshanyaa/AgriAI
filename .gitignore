@@ -70,3 +70,12 @@ app.*.map.json
 *.h5
 __pycache__/
 .venv/
+
+# Large training data and generated experiment artifacts.
+*.tar
+*.tar.gz
+*.tgz
+/ml_training/data/
+/ml_training/agriai_training_output/
+/ml_training/mobile_model_output/*.tflite
+/ml_training/.ipynb_checkpoints/

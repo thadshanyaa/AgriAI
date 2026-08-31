@@ -1,0 +1,30 @@
+{
+  "tensorflow_version": "2.15.1",
+  "python_workflow": "Python 3.11 TensorFlow 2.15.1",
+  "conversion_method": "float32_inference_graph_with_float16_weights",
+  "tflite_model": "agriai_disease_float16.tflite",
+  "tflite_bytes": 6264108,
+  "tflite_mb": 5.97,
+  "input_shape": [
+    1,
+    192,
+    192,
+    3
+  ],
+  "input_dtype": "<class 'numpy.float32'>",
+  "output_shape": [
+    1,
+    122
+  ],
+  "output_dtype": "<class 'numpy.float32'>",
+  "class_count": 122,
+  "label_count": 122,
+  "keras_probability_sum": 0.9999999403953552,
+  "tflite_probability_sum": 1.0000001192092896,
+  "keras_tflite_max_abs_difference": 0.001254439353942871,
+  "keras_tflite_top1_match": true,
+  "smoke_test": "passed",
+  "weight_arrays": 264,
+  "weight_parameters": 3113594,
+  "saved_weight_layers": 109
+}
