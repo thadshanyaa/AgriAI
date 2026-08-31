@@ -1,0 +1,28 @@
+abstract final class AppRoutes {
+  static const splash = '/';
+  static const language = '/language';
+  static const login = '/login';
+  static const register = '/register';
+  static const home = '/home';
+  static const cropAdvisory = '/crop-advisory';
+  static const aiRecommendation = '/ai-recommendation';
+  static const diseaseDetection = '/disease-detection';
+  static const diseaseResult = '/disease-result';
+  static const weather = '/weather';
+  static const forecast = '/forecast';
+  static const profitPlanner = '/profit-planner';
+  static const farmManagement = '/farm-management';
+  static const farmMap = '/farm-map';
+  static const farmAnalytics = '/farm-analytics';
+  static const reports = '/reports';
+  static const marketPrices = '/market-prices';
+  static const communityMarket = '/community-market';
+  static const notifications = '/notifications';
+  static const governmentNews = '/government-news';
+  static const profile = '/profile';
+  static const settings = '/settings';
+  static const about = '/about';
+  static const help = '/help';
+  static const assistant = '/assistant';
+  static const voiceAssistant = '/voice-assistant';
+}
